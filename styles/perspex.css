@@ -1,0 +1,109 @@
+/*perspex.css*/
+body{
+    margin: auto;
+    padding: 0;
+    background: black;
+}
+#container{
+    margin: 0 3%;
+    background: #424242;
+    width:94%;
+    height: 90%;
+}
+#nav{
+    background: grey;
+    display: flex;
+    justify-content: space-around;
+    flex-direction: row;
+}
+#nav ul li{
+    display: inline;
+}
+#nav ul li a{
+    color: silver;
+    font-family: monospace;
+    text-decoration: none;
+}
+#footer{
+    height:10%;
+    width: 100%;
+}
+/************pods**************/
+.backGround{
+    padding: 5px;
+    position: absolute;
+    top:40px;
+    left: 30px;
+    width: 20%
+}
+.backGround .punch{
+    font-size: 6px;
+    padding: 6px;
+    margin-left: 20px;
+    top: -20px;
+    background: grey;
+}
+.midGround{
+    padding: 10px;
+    position: absolute;
+    top:200px;
+    left: 100px;
+    width: 30%;
+}
+.midGround .punch{
+    padding: 10px;
+    font-size: 9px;
+    top: -50px;
+    background: silver;
+}
+.foreGround{
+    padding: 15px;
+    position: absolute;    
+    top:400px;
+    left: 200px;
+    width: 40%;
+}
+.foreGround .punch{
+    padding: 15px;
+    font-size: 14px;
+    top: -60px;
+}
+.pinch{
+    position: absolute;
+    background: linear-gradient(to bottom left, silver, black);
+    transform: skew(39deg);
+    border-radius: 20px;
+    border-bottom: silver 4px groove;
+    padding: 0 20px; 10px 20px;
+}
+.punch{
+    position: relative;
+    background: white;
+    padding: 10px 5px 5px 10px;
+    width: 70%;
+    transform: skew(-39deg);
+    margin-left: 48px;
+    box-shadow: -30px -8px 70px black;
+    border-radius: 5px;
+}
+.header{
+    padding: 2px 5px;
+    margin: -8px 21px 2px 4px;
+    border-top-left-radius: 15px;border-top-right-radius: 15px;
+    background: black;
+    color: white;
+}
+.two{
+    margin-top: -10px;
+    margin-left: 300px;
+}
+/*.backGround .two{
+    margin-left: 150px !important;
+}*/
+.midGround.two{
+    margin-left: 460px !important;
+}
+
+.foreGround.two{
+    margin-left: 570px !important;
+}
