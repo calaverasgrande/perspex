@@ -65,11 +65,6 @@ body{
     left: 200px;
     width: 40%;
 }
-.foreGround .punch{
-    padding: 15px;
-    font-size: 14px;
-    top: -60px;
-}
 .pinch{
     position: absolute;
     background: linear-gradient(to bottom left, silver, black);
@@ -107,4 +102,14 @@ body{
 }
 .foreGround.two{
     margin-left: 570px !important;
+}
+.foreGround.pinch{
+  transform: skew(45deg);
+}
+.foreGround .punch{
+  padding: 15px;
+  margin-left: 128px;
+  font-size: 14px;
+  top: -60px;
+  transform: skew(-45deg);
 }
