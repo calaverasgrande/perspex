@@ -93,6 +93,7 @@ body{
 .two{
     margin-top: -10px;
     margin-left: 300px;
+    transform: skew(45deg);
 }
 /*.backGround .two{
     margin-left: 150px !important;
@@ -100,6 +101,7 @@ body{
 .midGround.two{
     margin-left: 460px !important;
 }
+
 .foreGround.two{
     margin-left: 570px !important;
 }
@@ -112,4 +114,10 @@ body{
   font-size: 14px;
   top: -60px;
   transform: skew(-45deg);
+}
+.midGround.puich.two>.punch{
+  transform:skew(-50);
+}
+.foreGround.pinch.two>.punch{
+  transform: skew(-45);
 }
