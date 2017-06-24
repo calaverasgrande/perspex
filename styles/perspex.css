@@ -1,4 +1,6 @@
 /*perspex.css*/
+/*copyright 2016 Russ D'Arensbourg*/
+/* feel free to use as you wish, with attribution. */
 body{
     margin: auto;
     padding: 0;
@@ -58,7 +60,7 @@ body{
 }
 .foreGround{
     padding: 15px;
-    position: absolute;    
+    position: absolute;
     top:400px;
     left: 200px;
     width: 40%;
@@ -103,7 +105,6 @@ body{
 .midGround.two{
     margin-left: 460px !important;
 }
-
 .foreGround.two{
     margin-left: 570px !important;
 }
